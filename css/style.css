@@ -170,8 +170,10 @@ header {
     padding: 0 25px;
 }
 
-.about-wrapper {
-    background-color: black;
+.background {
+    background-image: url(images/top.png);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .about-wrapper h2{
