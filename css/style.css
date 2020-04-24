@@ -27,7 +27,7 @@ a {
 }
 
 .clear {
-    clear: left;
+    clear: both;
 }
 
 /* header  */
@@ -220,7 +220,6 @@ header {
     text-align: center;
     display: inline;
 }
-
 
   
 input, textarea {
