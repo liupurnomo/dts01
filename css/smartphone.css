@@ -1,0 +1,52 @@
+@media (max-width: 670px ) {
+
+    /* header  */
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block !important;
+    }
+
+    /* banner  */
+    .top-wrapper {
+        height: auto;
+        padding: 0px 0px 20px;
+        text-align: center;
+    }
+    .gambar-kanan {
+        width: 100%;
+    }
+
+    .gambar-kanan img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .pesan {
+        text-align: center;
+    }
+
+    .btn-wrapper {
+        text-align: center;
+    }
+
+    .col-1-4 {
+        width: 100%;
+        float: left;
+    }
+
+    .col-1-2 {
+        width: 100%;
+        float: left;
+    }
+
+    .col-1-5 {
+        width: 100%;
+        float: left;
+        padding: 10px;
+        text-align: center;
+    }
+    
+}

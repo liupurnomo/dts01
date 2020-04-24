@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa {
+    margin: 5px;
+    color: white;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: left;
+}
+
+/* header  */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    color: white;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right a:active {
+    background-color: rgba(241, 85, 85, 0.3);
+}
+
+.menu-icon {
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none !important;
+}
+
+.kontak {
+    background-color: #4768af;
+}
+
+/* top wrapper banner */
+
+.top-wrapper {
+    padding: 100px 0;
+    height: auto;
+}
+
+.gambar-kanan {
+    float: right;
+}
+
+.gambar-kanan img {
+    height: 500px;
+    padding: auto;
+}
+
+.top-wrapper h1 {
+    line-height: 20px;
+}
+
+.pesan {
+    padding-top: 200px;
+}
+
+.btn-wrapper {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.btn {
+    padding: 4px 8px;
+    color: #4768af;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.join {
+    background-color: #4768af;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+/* feature  */
+.feature-wrapper {
+    background-color: #f7f7f7;
+    height: auto;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.col-1-4 {
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 15%;
+}
+
+.section-title {
+    text-align: center;
+    color: #4768af;
+    padding: 10px 0;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.feature-disc {
+    color: gray;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.about-wrapper {
+    background-color: black;
+}
+
+.about-wrapper h2{
+    color: #ffffff;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    width: 100%;
+    padding: 10px;
+}
+
+.about p {
+    text-align: left;
+    color: white;
+    padding-top: 15px;
+}
+
+.medsos {
+    background-color: #4768af;
+    text-align: center;
+    border-radius: 20%;
+    padding: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+.col-1-5 {
+    width: 20%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+.foto-tim img {
+    width: 100%;
+    text-align: center;
+    border-radius: 20%;
+}
+
+footer {
+    background-color: #4768af;
+    color: white;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+footer img {
+    height: 100px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
