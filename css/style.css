@@ -35,54 +35,71 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: black;
-    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
     top: 0;
     z-index: 10;
-    color: white;
-}
-
+    box-shadow: 2px 2px 5px #c7cad3;
+  }
+  
 .logo {
+    margin-top: 15px;
     width: 124px;
-    margin-top: 20px;
-    padding-left: 20px;
 }
-
+    
 .header-left {
     float: left;
 }
-
+    
 .header-right {
-    float: right;
-    margin-right: -25px;
+      float: right;
+      margin-right: -25px;
+}
+    
+.header-right a {
+      line-height: 65px;
+      padding: 0 15px;
+      color: #5b5b5c;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+}
+    
+.header-right a:hover {
+      background-color: rgba(255, 24, 24, 0.3);
 }
   
-.header-right a {
-    line-height: 60px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
+.login-menu {
+      border-left: 1px solid #425ba9;
+      color: #425ba9 !important;
+      border-radius: 0 !important;
+      margin: 10px 0 10px 20px !important;
+      padding: 0 30px !important;
+      line-height: 45px !important;
 }
-
-.header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+  
+.join-menu {
+      border: 1px solid #425ba9;
+      color: #425ba9 !important;
+      border-radius: 5px;
+      line-height: 45px !important;
+      margin: 10px 0 !important;
 }
-
-.header-right a:active {
-    background-color: rgba(241, 85, 85, 0.3);
+  
+.login-menu:hover {
+      background-color: #ffffff !important;
 }
-
+  
+.join-menu:hover {
+      background-color: #fdae1b !important;
+}
+  
 .menu-icon {
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none !important;
-}
-
-.kontak {
-    background-color: #4768af;
+      float: right;
+      font-size: 40px;
+      padding: 21px 10px;
+      display: none !important;
+      line-height: 65px;
 }
 
 /* top wrapper banner */
@@ -130,12 +147,17 @@ header {
     border-radius: 10px;
 }
 
+.pesan p {
+    line-height: 10px;
+}
+
 /* feature  */
 .feature-wrapper {
     background-color: #f7f7f7;
     height: auto;
     margin: 0;
     padding: 20px 0;
+    text-align: center;
 }
 
 .col-1-4 {
@@ -149,7 +171,7 @@ header {
 
 .feature img {
     width: 100%;
-    border-radius: 15%;
+    border-radius: 50%;
 }
 
 .section-title {
